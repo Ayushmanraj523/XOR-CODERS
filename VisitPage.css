@@ -1,0 +1,140 @@
+.visit-page {
+    /*min-height: 80vh;*/
+    /*background: linear-gradient(to right, #1359da, #243b55);*/
+    /*color: white;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .visit-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgb(45, 9, 247);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+  }
+  
+  .visit-navbar button {
+    margin-left: 10px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .visit-navbar button:hover {
+    background-color: white;
+    color: rgb(245, 139, 139);
+  }
+  
+  .visit-main {
+    min-height: 60vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .visit-main h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .visit-main p {
+    font-size: 1.2rem;
+    max-width: 600px;
+  }
+  
+  .visit-main button {
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-color: #ff9900;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.9rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .visit-main button:hover {
+    transform: scale(1.15);
+    background-color: #fda707;
+  }
+  
+  /* 🎯 Features Section */
+  .features-section {
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  .features-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #ffcc70;
+    text-shadow: 1px 1px 3px #000;
+  }
+  
+  .features-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .feature-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 25px;
+    width: 260px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  
+  .feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255, 204, 112, 0.4);
+  }
+  
+  .feature-box img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    filter: brightness(1.2);
+  }
+  
+  .feature-box h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .feature-box p {
+    font-size: 0.95rem;
+    color: #ddd;
+  }
+  
+  .visit-footer {
+    background-color: transparent;
+    color: #eee;
+    padding: 40px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 40px;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
