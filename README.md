@@ -107,18 +107,18 @@ Our goal was to eliminate the hassle of physical visits for minor complaints and
 ## 👥 Team XOR^Coders
 A big shoutout to the team who made this possible in just 24 hours:
 
-- **Ayushman Raj** - Frontend & UI/UX
+- **Ayushman Raj** - Frontend & Testing
 - **Akash Paul** - Backend
 - **Sahil Kumar** - Backend & Database
-- **Durga Shankar Mahto** - Testing & Documentation
+- **Durga Shankar Mahto** - Frontend & UI/UX
 
 ---
 
 ## 📄 License
 This project was created for educational purposes during the Hack Horizon 2K25 Hackathon at Arka Jain University.
-- **Akash Paul** - Frontend & UI/UX
+- **Akash Paul** - Backend
 - **Sahil Kumar** - Backend & Database
-- **Durga Shankar Mahto** - Testing & Documentation
+- **Durga Shankar Mahto** - Frontend & UI/UX
 
 ---
 
